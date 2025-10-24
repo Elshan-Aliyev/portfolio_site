@@ -1,0 +1,24 @@
+/*
+  File: global.css
+  Student: Elshan Aliyev
+  StudentID: 301507806
+  Date: 2025-10-24
+
+  Description: Global CSS for the portfolio site.
+*/
+body {
+  margin: 0;
+  padding: 0;
+  background: #f6f8fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+}
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+  margin-top: 70px; /* navbar height */
+}

@@ -1,0 +1,16 @@
+/*
+  File: Footer.css
+  Student: Elshan Aliyev
+  StudentID: 301507806
+  Date: 2025-10-24
+
+  Description: Styles for the footer.
+*/
+.footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #222;
+  color: #aaa;
+  font-size: 1rem;
+  margin-top: 2rem;
+}

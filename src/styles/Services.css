@@ -1,0 +1,46 @@
+/*
+  File: Services.css
+  Student: Elshan Aliyev
+  StudentID: 301507806
+  Date: 2025-10-24
+
+  Description: Styles for Services page.
+*/
+.services-section {
+  max-width: 950px;
+  margin: 3rem auto 2rem auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  padding: 2.5rem;
+}
+.services-section h2 {
+  color: #2a308d;
+  margin-bottom: 2rem;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.7rem;
+  justify-content: center;
+}
+.service-card {
+  flex: 1 1 190px;
+  max-width: 220px;
+  background: #f6f8fa;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(58,114,232,0.05);
+}
+.service-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.8rem;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.service-card h3 {
+  color: #3a72e8;
+  margin-bottom: 0.5rem;
+}
