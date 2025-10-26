@@ -6,7 +6,7 @@
 
   Description: Footer component for portfolio site.
 */
-
+console.log("Loaded Footer.jsx");
 import React from 'react';
 import '../styles/Footer.css';
 

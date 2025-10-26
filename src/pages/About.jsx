@@ -9,12 +9,12 @@
 
 import React from 'react';
 import '../styles/About.css';
-
+console.log("Loaded About.jsx");
 function About() {
   return (
     <section className="about-section">
       <div className="about-profile">
-        <img src="/images/your-photo.jpg" alt="Elshan Aliyev" className="about-photo"/>
+        <img src="/images/my-photo.jpg" alt="Elshan Aliyev" className="about-photo"/>
         <div className="about-details">
           <h2>Elshan Aliyev</h2>
           <p>512-20 Gatineau Drive<br/>Thornhill, ON, L4J0L3<br/>+1 647 880 5870<br/>elshan.aliyev.ca@gmail.com</p>

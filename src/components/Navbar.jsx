@@ -10,7 +10,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../styles/Navbar.css';
-
+console.log("Loaded Navbar.jsx");
 function Navbar() {
   return (
     <nav className="navbar">
