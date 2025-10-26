@@ -40,9 +40,12 @@ function Services() {
       <div className="services-list">
         {services.map((srv, idx) => (
           <div className="service-card" key={idx}>
-            <img src={srv.img} alt={srv.title} />
-            <h3>{srv.title}</h3>
-            <p>{srv.desc}</p>
+            <div className="img-frame">
+              <img src={srv.img} alt={srv.title} />
+              </div>
+              <h3>{srv.title}</h3>
+              <p>{srv.desc}</p>
+            
           </div>
         ))}
       </div>
